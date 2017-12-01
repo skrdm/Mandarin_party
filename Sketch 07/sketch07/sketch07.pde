@@ -1,9 +1,3 @@
-void setup()
-{
-  size(500,500);
-  frameRate(3);
-}
-
 void x1x2(float a, float b, float c)
 {
   float D = (b*b)-(4*a*c);
@@ -26,5 +20,5 @@ void x1x2(float a, float b, float c)
 
 void draw()
 {
-  x1x2(1, -1, -6);
+  x1x2(1, -1, -6); // Ввод коэффициентов и свободного члена квадратного уравнения 
 }
